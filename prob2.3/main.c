@@ -50,8 +50,6 @@ int main(int argc, const char * argv[]) {
     printf("Birth year: %d\n", st.birth_year);
     printf("School year: %d\n", st.school_year);
     
-    printf("Hello, World!\n");
-    
     /* Free memory and exit. */
     free (st.name);
     return 0;
